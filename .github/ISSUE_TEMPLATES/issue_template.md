@@ -9,5 +9,3 @@
     Given [some context]
     When [certain action is taken]
     Then [the outcome of action is observed]
-Copied!
-Ensure that you have a new folder in your repository called .github/ISSUE_TEMPLATES. This folder will contain your new user story template.
