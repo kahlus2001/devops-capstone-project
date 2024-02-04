@@ -35,3 +35,10 @@ except Exception as error:  # pylint: disable=broad-except
     sys.exit(4)
 
 app.logger.info("Service initialized!")
+
+# security: create talisman and add CORS Policies
+from flask_talisman import Talisman
+from flask_cors import CORS
+
+talisman = Talisman(app)
+CORS(app)
